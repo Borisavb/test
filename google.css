@@ -1,0 +1,125 @@
+        html,
+        body {
+          margin: 0;
+        }
+
+        #vrh {
+          color: gray;
+          display: flex;
+          justify-content: flex-end;
+        }
+
+        #lista {
+          display: flex;
+          align-items: center;
+        }
+
+        .btn {
+          padding: 5px;
+          color: white;
+          background-color: blue;
+        }
+
+        .btn:hover {
+          border: 1px solid black;
+        }
+
+        #google {
+          height: 100vh;
+        }
+
+        #search {
+          box-shadow: 5px 2px 2px lightgray;
+        }
+
+        #search:hover {
+          box-shadow: 7px 3px 3px lightgray;
+        }
+
+        footer {
+          background-color: lightgray;
+          color: gray;
+          position: absolute;
+          width: 100%;
+          bottom: 0px;
+        }
+
+        .con {
+          padding: 0 15px;
+        }
+
+        ul {
+          padding: 0px;
+          margin: 0px;
+        }
+
+        li {
+          text-decoration: none;
+          list-style: none;
+          margin-right: 10px;
+        }
+
+        a {
+          text-decoration: none;
+        }
+
+        a:active {
+          color: red;
+        }
+
+        a:hover {
+          text-decoration: underline;
+        }
+
+        #footer-nav .con {
+          display: flex;
+          justify-content: space-between;
+
+        }
+
+        .ufooteru {
+          border-top: 1px solid gray;
+          padding: 5px;
+        }
+
+        #prva,
+        #druga {
+          display: flex;
+        }
+
+        img {
+          width: 100%;
+          height: auto;
+        }
+
+        input {
+          width: 100%;
+        }
+
+        #slika {
+          width: 80%;
+          margin: 0 auto;
+        }
+
+        #content {
+          width: 30%;
+          margin: 0 auto;
+          text-align: center;
+        }
+
+        #levi,
+        #desni {
+          background-color: lightgray;
+          color: gray;
+          text-align: center;
+          display: inline-block;
+          font-weight: bold;
+          padding: 3px;
+        }
+
+        #levi:hover,
+        #desni:hover {
+          border: 1px solid black;
+          color: black;
+          border-radius: 2px;
+        }
